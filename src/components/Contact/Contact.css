@@ -1,0 +1,42 @@
+.b-wrapper{
+    color:white;
+    position: relative;
+   
+}
+.b-container{
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  label {
+    font-size: 1.8rem;
+  }
+  input,
+  textarea {
+    width: 100%;
+    font-size: 2rem;
+    padding: 1.2rem;
+    color: var(--gray-1);
+    background-color: var(--blue-gradient);
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+
+  @media (max-width:640px) {
+    .b-container{
+        margin-top: 4rem;
+        justify-content: space-around;
+    }
+    .form-group {
+        width: 90%;
+        margin-bottom: 3rem;
+      }
+    
+  }
+  

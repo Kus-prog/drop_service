@@ -1,0 +1,14 @@
+.p-wrapper{
+    color:white;
+    position: relative;
+   
+}
+.b-container{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.s-card{
+    background:rgb(245, 241, 241);
+    
+}
